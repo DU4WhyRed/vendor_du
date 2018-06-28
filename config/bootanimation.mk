@@ -9,7 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/media/1440x2560.zip:system/media/bootanimation.zip
 endif
 
-ifeq ($(filter dumpling,$(TARGET_PRODUCT)),)
+ifeq ($(filter dumpling whyred,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/media/1080x2160.zip:system/media/bootanimation.zip
 endif
