@@ -1,6 +1,8 @@
 # Packages
 PRODUCT_PACKAGES += \
-    Turbo
+    DU-Fonts \
+    Turbo \
+    WallpaperPicker
 
 # Accents
 PRODUCT_PACKAGES += \
@@ -38,10 +40,6 @@ PRODUCT_PACKAGES += \
     GBoardDark \
     SettingsDark \
     SystemDark
-
-# Fonts
-PRODUCT_PACKAGES += \
-    DU-Fonts
 
 # Extra tools
 PRODUCT_PACKAGES += \
